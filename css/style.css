@@ -1,0 +1,36 @@
+* {
+	box-sizing: border-box;
+}
+body{
+	background: grey;
+}
+.form{
+	background: darkgrey;
+	width: 200px;
+	height: 200px;	
+	position: absolute;
+top: calc(50% - 100px);
+left:calc(50% - 100px);
+}
+form{
+	padding: 10px;
+}
+input{
+	display: block;
+	width: 160px;
+	height: 35px;
+	margin: 5px;
+}
+a{	display: inline-block;
+	width: 75px;
+	height: 25px;
+	margin-top: 20px;
+	background: lightgrey;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	padding-top: 5px;
+}
+.escape{
+	margin-left: 20px;
+}
